@@ -6,19 +6,19 @@ using UnityEngine.UI;
 public class PanelManager : MonoBehaviour
 {
     public GameObject[] panels;
-    public Button[] buttons; 
-    
+    public Button[] buttons;
+
     void Start()
     {
-        
+
     }
     // Update is called once per frame
     void Update()
     {
-       
+
     }
     public void active()
-    {   
+    {
         for (int i = 0; i < panels.Length; i++)
         {
             buttons[0].onClick.AddListener(() => panels[0].SetActive(true));
