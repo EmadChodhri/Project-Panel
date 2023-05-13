@@ -10,12 +10,12 @@ public class PanelManager : MonoBehaviour
 
     void Start()
     {
-
+       active();
     }
     // Update is called once per frame
     void Update()
     {
-
+       
     }
     public void active()
     {
